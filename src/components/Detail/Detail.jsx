@@ -1,10 +1,10 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+
 
 const Detail = () => {
   return (
     <>
-      <Fade right cascade>
+     
         <div className="flex pt-10 relative max-w-[1240px] mx-auto my-[8rem]">
           <div className="img-container w-[50%]">
             <img
@@ -25,7 +25,7 @@ const Detail = () => {
             </p>
           </div>
         </div>
-      </Fade>
+    
     </>
   );
 };

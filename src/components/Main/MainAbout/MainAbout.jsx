@@ -1,9 +1,9 @@
-import Fade from "react-reveal/Fade";
+
 
 function MainAbout() {
   return (
     <div className="bg-slate-50">
-      <Fade right>
+    
         <div className="max-w-[1240px] px-4 mx-auto">
           <div className="flex flex-col lg:flex-row gap-2">
             <div className="mb-16 lg:mb-0 pt-24 pb-20 w-11/12 sm:w-9/12 lg:w-6/12 self-center text-gray-900 text-center lg:text-left">
@@ -48,7 +48,7 @@ function MainAbout() {
             </div>
           </div>
         </div>
-      </Fade>
+      
     </div>
   );
 }

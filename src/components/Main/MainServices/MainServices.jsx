@@ -1,4 +1,4 @@
-import Flip from "react-reveal/Flip";
+
 
 function MainServices() {
   return (
@@ -7,7 +7,7 @@ function MainServices() {
         <h2 className="mb-24 text-center text-4xl font-bold">
           Health Services <span className="text-indigo-600">We Provide</span>
         </h2>
-        <Flip right cascade>
+      
           <div className="flex justify-center gap-8 flex-wrap">
             <a
               href="#"
@@ -124,7 +124,7 @@ function MainServices() {
               </p>
             </a>
           </div>
-        </Flip>
+       
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
 import "./HeroContact.css";
-import Fade from "react-reveal/Fade";
+
 
 
 function HeroContact() {
       return (
         <div className="max-w-[1240px] mx-auto ">
-           <Fade right>
+          
             <div className="flex flex-col md:flex-row relative md:top-[-40px] shadow-2xl bg-red-200">
               <div className="bg-indigo-600 py-10 px-8 w-full md:w-3/5">
                 <p className="mb-1 font-semibold text-lg text-gray-300">
@@ -126,7 +126,7 @@ function HeroContact() {
                 </a>
               </div>
             </div>
-          </Fade>
+          
         </div>
       );
 }
