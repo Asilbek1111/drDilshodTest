@@ -1,10 +1,10 @@
 import React from "react";
-
+import Slide from "react-reveal/Slide";
 
 const Detail = () => {
   return (
     <>
-     
+      <Slide right>
         <div className="flex pt-10 relative max-w-[1240px] mx-auto my-[8rem]">
           <div className="img-container w-[50%]">
             <img
@@ -25,7 +25,7 @@ const Detail = () => {
             </p>
           </div>
         </div>
-    
+      </Slide>
     </>
   );
 };
